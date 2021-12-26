@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "dynamiclibrary",
+    "rusty-syringe",
+    "cli"
+]

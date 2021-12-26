@@ -1,0 +1,11 @@
+[package]
+authors = ["scrubjay55"]
+name = "rusty-syringe"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies.windows-sys]
+version = "0.29.0"
+features = ["Win32_Security", "Win32_Foundation", "Win32_System_Console", "Win32_System_LibraryLoader", "Win32_System_Memory",
+            "Win32_System_Threading", "Win32_System_Diagnostics_Debug"]
